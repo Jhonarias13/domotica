@@ -1,0 +1,4 @@
+<section class="container-fluid">
+    <button class="btn" (click)="switch()" [ngClass]="{'d-none': led, 'success': !led}">On</button>
+    <button class="btn" (click)="switch()" [ngClass]="{'d-none': !led, 'warning': led}">Off</button>
+</section>
